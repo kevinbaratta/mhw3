@@ -1,0 +1,300 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    color: rgba(26, 26, 26, .7);
+    font-family: 'Lora', serif;
+    margin: 0;
+    
+    
+  }
+  
+  
+  .button,
+  
+  footer,nav,
+  header,
+  h2,
+  #links {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  .overlay{
+   background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+  top: 0;
+   left: 0;
+   height: 100%;
+ width: 100%;    
+  z-index:-1;
+  
+  }
+  
+
+
+  #corpo {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center; 
+    width:66.7%;
+    margin-bottom: 50px;
+  
+  
+    color: rgba(26, 26, 26, .7);
+    font-family: 'Lora', serif;
+    margin: 0;
+    
+  }
+
+
+  header {
+    background-image: url(https://staticfanpage.akamaized.net/wp-content/uploads/sites/27/2023/04/coreografia-pulcinella-milan-napoli-1200x675.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+  #flexcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #flex-box{
+    width: 100px;
+    height: 100px;
+    margin-top:-50px;
+    border-radius: 50px;
+    border: 2px  solid white ;
+    background-image: url(https://media.gq-magazine.co.uk/photos/63bd3fe7289a3155af7a277b/master/pass/GettyImages-1235215302.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+  
+  }
+  
+ 
+  header h1 {
+  
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    text-shadow: 2px 2px black;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    background-color: #333;
+    width: 100%;
+  }
+  
+  .container {
+    display: flex;
+    
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 60px;
+  }
+  
+
+  @media (max-width: 500px) {
+    .number {
+    font-size: 14px;
+    margin-right: 20px;
+    }
+    }
+
+
+  .title-container {
+    display: flex;
+    flex-direction:row;
+    align-items: flex-start;
+    margin-left: -80px;
+    
+  }
+  
+  @media (max-width: 500px) {
+    body {
+    font-size: 14px;
+    }
+    }
+
+    @media (max-width: 500px) {
+      #corpo {
+      flex-direction: column;
+      font-size: 14px;
+      }
+      } 
+      
+    
+  .num{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  
+  .description {
+   margin-left: -40px; 
+   margin-top: -20px;
+  }
+  
+  .image-container {
+    background-image: url(https://www.ilcentro.it/image/policy:1.2409663:1588178417/A-maggio-riparte-l-Atletica-leggera.jpg?f=2x1&$p$f=972ce59&w=1500&$w=f075b93);
+    background-position: left;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    
+  }
+  .image-calcio {
+    background-image: url(https://www.ansa.it/webimages/img_700/2022/5/22/037060a022d928837048b3a884e2dad8.jpg);
+    background-position: left;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+  }
+    .image-padel {
+      background-image: url(https://d26itsb5vlqdeq.cloudfront.net//image/D3CE130B-D3B1-FAF4-758D0A190444030D);
+      background-position: left;
+      background-size: cover;
+      width: 100%;
+      height: 300px;
+      margin-top: 20px;
+  }
+  .image-basket {
+    background-image: url(https://cdn.nba.com/manage/2023/03/anthony-davis-dunks-iso.jpg);
+    background-position: left;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+}
+.image-scacchi {
+  background-image: url(https://media.gqitalia.it/photos/5fbd6931b63fe581a69234fd/16:9/w_2560%2Cc_limit/gambito%2520de%2520reina%2520ajedrez.jpg);
+  background-position: left;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  margin-top: 20px;
+}
+  
+  .image-pallav {
+    background-image: url(https://static.sky.it/editorialimages/1774de63d2198f081ebb897b5f0918d1474a4412/skytg24/it/sport/2022/10/13/nazionale-pallavolo-femminile-foto/nazionale%20pallavolo%20femminile%20ita.jpg);
+    background-position: left;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    
+  }
+  .number {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: left;
+    margin-right:40px;
+
+  }
+
+  
+  
+  
+  a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+
+  
+  
+  section h2 {
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  section img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  
+
+
+  footer {
+  margin-top: 80px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;  
+  }
+
+
+
+/*mhw3*/
+#song span{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+#song img{
+    width: 50%;
+    height: 50%;
+  
+}
+
+
+
+#champions {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  #champions  #song {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  #ADC, #music {
+    font-family: Avanta Garde,Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgb(29, 92, 146);
+    text-align: center;
+  }
+  #champions img{
+    margin-bottom: 10px;
+  }
+  #song a{
+    margin-top: 15px;
+  }
+  
+    
